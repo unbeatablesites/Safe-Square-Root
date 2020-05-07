@@ -10,7 +10,7 @@ public class App {
     static void logic(){
         System.out.println("SQUARE ROOT!\n");
 
-
+        System.out.print("Enter a number: ");
 
         Scanner scan = new Scanner(System.in);
 
