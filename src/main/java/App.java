@@ -16,10 +16,11 @@ public class App {
 
         int userInput = scan.nextInt();
 
+
         do {
             double squareRoot = Math.sqrt(userInput);
             System.out.println(squareRoot);
-        }while (userInput > 0);
+        }while (userInput < 0);
 
 
 
