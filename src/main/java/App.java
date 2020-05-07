@@ -16,14 +16,11 @@ public class App {
 
         int userInput = scan.nextInt();
 
-
-        do {
+        while (userInput < 0){
             System.out.println("You can't take the square root of a negative number, silly.\n");
-        }while (userInput < 0);
-
+        }
         double squareRoot = Math.sqrt(userInput);
         System.out.println(squareRoot);
-
 
     }
 }
