@@ -18,6 +18,7 @@ public class App {
 
         while (userInput < 0){
             System.out.println("You can't take the square root of a negative number, silly.\n");
+            userInput = scan.nextInt();
         }
         double squareRoot = Math.sqrt(userInput);
         System.out.println(squareRoot);
