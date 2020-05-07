@@ -10,7 +10,7 @@ public class App {
     static void logic(){
         System.out.println("SQUARE ROOT!\n");
 
-        System.out.print("Enter a number: ");
+
 
         Scanner scan = new Scanner(System.in);
 
@@ -18,6 +18,7 @@ public class App {
 
         while (userInput < 0){
             System.out.println("You can't take the square root of a negative number, silly.\n");
+            System.out.print("Enter a number: ");
             userInput = scan.nextInt();
         }
         double squareRoot = Math.sqrt(userInput);
